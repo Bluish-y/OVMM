@@ -120,7 +120,7 @@ imshow(np.mod(np.angle(fftb), 2*np.pi), axes[2,2])
 x_vals = np.linspace(0, 1.0, 5000)  # avoid singularity at 0
 sinc_vals = np.sinc(x_vals)
 axes[1,0].plot(x_vals, sinc_vals)
-plt.savefig("/data.nst/ysinha/projects/Reports/OVMM/figs/phase_visualization.png")
+plt.savefig("/ysinha/projects/Reports/OVMM/figs/phase_visualization.png")
 print(np.linalg.norm(np.abs(d_fftb)-As))
 
 

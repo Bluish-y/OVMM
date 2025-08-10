@@ -222,5 +222,5 @@ if __name__ == "__main__":
     # print(0 if np.isclose(np.mod(2*np.pi/4*44, 2*np.pi), 2*np.pi, atol=1e-12) else np.mod(2*np.pi/4*44, 2*np.pi))
 
     # custom_imshow(axes[2,1], psi, title="single grating block")
-    plt.savefig("/data.nst/ysinha/projects/Reports/OVMM/slm_test.png")
+    plt.savefig("/ysinha/projects/Reports/OVMM/slm_test.png")
     print(np.angle((fourier_inp)))

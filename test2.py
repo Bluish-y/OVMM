@@ -116,7 +116,7 @@ def main():
     #     ax.axis('off')
 
     plt.tight_layout()
-    plt.savefig("/data.nst/ysinha/projects/Reports/OVMM/test.png")
+    plt.savefig("/ysinha/projects/Reports/OVMM/test.png")
 
 if __name__ == "__main__":
     main()
